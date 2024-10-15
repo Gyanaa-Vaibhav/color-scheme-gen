@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.app{
+    margin-top: 50px;
+    background-color: antiquewhite;
+    width: fit-content;
+    height: 620px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#input{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#colorInt{
+    height: 42px;
+    width: 60px;
+}
+
+#colorType{
+    padding: 10px 10px;
+    height: 42px;
+    width: 312px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+button{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#colorsBox{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#colorsBox div{
+    width: 110px;
+    height: 550px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#colorsBox p{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    background-color: white;
+}
